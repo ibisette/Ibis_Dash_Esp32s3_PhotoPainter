@@ -2364,6 +2364,7 @@ void setup() {
   USBSerial.println("[OK] PMU IRQ ready");
   
   // Verify PMU
+  delay(900); // Let I2C settle before talking to PMU
   USBSerial.println("Verifying PMU...");
   if (!PMU.begin(Wire, AXP2101_SLAVE_ADDRESS, PMU_SDA, PMU_SCL)) {
     USBSerial.println("PMU init failed!");
