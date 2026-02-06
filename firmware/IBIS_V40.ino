@@ -1,48 +1,48 @@
 // ╔══════════════════════════════════════════════════════════════════════════════╗
 // ║                    🦤 IBIS DASH - USER READY VERSION 🦤                      ║
 // ║                                                                              ║
-// ║  VERSION 4.0 - USB COMPOSITE DEVICE (PC-FRIENDLY)                           ║
-// ║  • NEW: Board identifies as "Ibis Dash" in Device Manager!                  ║
-// ║  • NEW: USB Composite Device (CDC + HID) prevents PC power management       ║
-// ║  • PCs treat HID devices as essential - no more USB disconnects!            ║
-// ║  • NEVER sleeps on USB - foolproof triple verification                      ║
-// ║  • Ignores false low battery readings on USB                                ║
+// ║  VERSION 4.0 - USB COMPOSITE DEVICE (PC-FRIENDLY)                            ║
+// ║  • NEW: Board identifies as "Ibis Dash" in Device Manager!                   ║
+// ║  • NEW: USB Composite Device (CDC + HID) prevents PC power management        ║
+// ║  • PCs treat HID devices as essential - no more USB disconnects!             ║
+// ║  • NEVER sleeps on USB - foolproof triple verification                       ║
+// ║  • Ignores false low battery readings on USB                                 ║
 // ║                                                                              ║
-// ║  This version has NO personal credentials - ready for end users!            ║
-// ║  All configuration is stored in NVS (flash) and set via Ibis Setup app.     ║
+// ║  This version has NO personal credentials - ready for end users!             ║
+// ║  All configuration is stored in NVS (flash) and set via Ibis Setup app.      ║
 // ║                                                                              ║
-// ║  FIRST TIME SETUP:                                                          ║
-// ║  1. Upload this sketch to your ESP32-S3-PhotoPainter                        ║
-// ║  2. You'll see the setup screen with ibis logos                             ║
-// ║  3. Press KEY button on back to enter pairing mode (30 min)                 ║
-// ║  4. Open Ibis Setup app, connect, and configure WiFi + Strava               ║
-// ║  5. Save - the board becomes a Strava dashboard!                            ║
+// ║  FIRST TIME SETUP:                                                           ║
+// ║  1. Upload this sketch to your ESP32-S3-PhotoPainter                         ║
+// ║  2. You'll see the setup screen with ibis logos                              ║
+// ║  3. Press KEY button on back to enter pairing mode (30 min)                  ║
+// ║  4. Open Ibis Setup app, connect, and configure WiFi + Strava                ║
+// ║  5. Save - the board becomes a Strava dashboard!                             ║
 // ║                                                                              ║
-// ║  USB IDENTITY (how PCs see this board):                                     ║
-// ║  • Product Name: "Ibis Dash"                                                ║
-// ║  • Manufacturer: "Ibis"                                                     ║
-// ║  • Shows as composite device: USBSerial Port + HID                             ║
-// ║  • PCs will NOT aggressively power-manage this device                       ║
+// ║  USB IDENTITY (how PCs see this board):                                      ║
+// ║  • Product Name: "Ibis Dash"                                                 ║
+// ║  • Manufacturer: "Ibis"                                                      ║
+// ║  • Shows as composite device: USBSerial Port + HID                           ║
+// ║  • PCs will NOT aggressively power-manage this device                        ║
 // ║                                                                              ║
 // ║  FEATURES:                                                                   ║
-// ║  + Setup screen with pixel art ibis logos when unconfigured                 ║
-// ║  + Wakes from sleep when USB connected (for easy editing!)                  ║
-// ║  + NEVER sleeps on USB - foolproof triple verification                      ║
-// ║  + Configurable refresh intervals (hourly/12h/daily/weekly)                 ║
-// ║  + Configurable tracking period (weekly/monthly/yearly)                     ║
-// ║  + Configurable sport type (Run/Ride/Swim/Hike/Walk)                        ║
-// ║  + Custom title/username support                                            ║
-// ║  + Weekly stats: Monday to Sunday                                           ║
-// ║  + Wipe command to clear all user data                                      ║
+// ║  + Setup screen with pixel art ibis logos when unconfigured                  ║
+// ║  + Wakes from sleep when USB connected (for easy editing!)                   ║
+// ║  + NEVER sleeps on USB - foolproof triple verification                       ║
+// ║  + Configurable refresh intervals (hourly/12h/daily/weekly)                  ║
+// ║  + Configurable tracking period (weekly/monthly/yearly)                      ║
+// ║  + Configurable sport type (Run/Ride/Swim/Hike/Walk)                         ║
+// ║  + Custom title/username support                                             ║
+// ║  + Weekly stats: Monday to Sunday                                            ║
+// ║  + Wipe command to clear all user data                                       ║
 // ║                                                                              ║
-// ║  ARDUINO IDE SETTINGS:                                                      ║
-// ║  >> Board: ESP32S3 Dev Module                                               ║
-// ║  >> Flash Mode: DIO (NOT OPI!)                                              ║
-// ║  >> USB CDC On Boot: "Disabled"                                             ║
-// ║  >> USB Mode: "USB-OTG (TinyUSB)"                                          ║
+// ║  ARDUINO IDE SETTINGS:                                                       ║
+// ║  >> Board: ESP32S3 Dev Module                                                ║
+// ║  >> Flash Mode: DIO (NOT OPI!)                                               ║
+// ║  >> USB CDC On Boot: "Disabled"                                              ║
+// ║  >> USB Mode: "USB-OTG (TinyUSB)"                                            ║
 // ║                                                                              ║
-// ║  Hardware: Waveshare ESP32-S3-PhotoPainter                                  ║
-// ║  ESP32 Board Version: 2.0.17                                                ║
+// ║  Hardware: Waveshare ESP32-S3-PhotoPainter                                   ║
+// ║  ESP32 Board Version: 2.0.17                                                 ║
 // ╚══════════════════════════════════════════════════════════════════════════════╝
 
 // =============================================================================
